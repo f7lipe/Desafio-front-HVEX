@@ -1,11 +1,14 @@
+'use client'
 import { Inter } from 'next/font/google'
+import { Main } from './styles/components'
+import Navbar from './layouts/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className={inter.className}>
-      <h1>Desafio técnico HVEX</h1>
-    </main>
+    <Main className={inter.className}>
+      <Navbar />
+    </Main>
   )
 }
