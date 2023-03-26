@@ -1,0 +1,24 @@
+{
+    "title": "OMNI TRAFO",
+    "secondary_title": "É o dispositivo capaz de integrar os transformadores as redes inteligentes",
+    "description": "O Omni Trafo envia informações em tempo real, permitindo a administração remota de dados importantes da rede elétrica, como tensão, corrente, potência passante, energia, temperatura, sobrecarga entre outros, mapeando seu funcionamento, prevendo a vida útil dos ativos e aferindo perdas técnicas e não técnicas.",
+    "cards": [
+        {
+            "icon": "/section2_1.svg",
+            "title": "Sistema de Proteção"
+        },
+        {
+            "icon": "/section2_2.svg",
+            "title": "Integração de dados"
+        },
+        {
+            "icon": "/section2_3.svg",
+            "title": "Gestão de Ativos Elétricos"
+        },
+        {
+            "icon": "/section2_4.svg",
+            "title": "Comunicação inteligente"
+        }
+
+    ]
+}
