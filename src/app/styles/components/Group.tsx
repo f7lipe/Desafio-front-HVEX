@@ -4,6 +4,7 @@ interface Props {
     direction?: 'row' | 'column' | 'row-reverse' | 'column-reverse'
     justify?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly'
     align?: 'stretch' | 'flex-start' | 'flex-end' | 'center' | 'baseline'
+    wrap?: 'wrap' | 'nowrap' | 'wrap-reverse'
     width?: string
     height?: string
     margin?: string
@@ -15,6 +16,7 @@ interface Props {
 const Group = styled.div`
     display: flex;
     flex-direction: ${(props: Props) => props.direction || 'column'};
+    flex-wrap: ${(props: Props) => props.wrap || 'nowrap'};
     width: ${(props: Props) => props.width || '100%'};
     height: ${(props: Props) => props.height || '100%'};
     margin: ${(props: Props) => props.margin || '0'};
