@@ -1,10 +1,24 @@
 import { createGlobalStyle } from 'styled-components'
 
+const theme = {
+    colors: {
+        primary: '#00B6DE',
+        secondary: '#036FC0',
+        tertiary: '#1C2C44',
+        quaternary: '#1B2033',
+    },
+}
+
 const GlobalStyle = createGlobalStyle`
  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    }
+
+    body {
+        background-color: white;
+        height: 100vh;
     }
 
     h1{
@@ -23,7 +37,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: 20px;
     }
 
-    h5{
+    h5, p{
         font-size: 16px;
     }
 
@@ -35,14 +49,17 @@ const GlobalStyle = createGlobalStyle`
         font-weight: 400;
     }
 
+    h1, h2, h3, h4, h5 {
+        margin-bottom: 10px;
+        color: ${theme.colors.primary};
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
 `
-const theme = {
-    colors: {
-        primary: '#00B6DE',
-        secondary: '#036FC0',
-        tertiary: '#1C2C44',
-        quaternary: '#1B2033',
-    },
-}
+
 
 export { GlobalStyle, theme }
