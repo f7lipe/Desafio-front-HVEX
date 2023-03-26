@@ -1,0 +1,22 @@
+{
+    "linkedin": {
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQE_-LB151wcBwAAAYcbQgvwquz004HYmIj9dy1B7cXjS9HOrlm8szEHCr56JfDIYainNmHjLIjH8-3CkT8CI4aJpbBIHWxz1gnwkOjqlvv-agy5inMGZyRS92CDN5St-iN9bBU=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fhvexoficial%2F",
+        "icon": "/linkedin.svg"
+    },
+    "facebook": {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/HVEX.MG/",
+        "icon": "/facebook.svg"
+    },
+    "instagram": {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/hvex_oficial/",
+        "icon": "/instagram.svg"
+    },
+    "youtube": {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/UCK5Z6eCnlYHVkHijYzb1Iow",
+        "icon": "/youtube.svg"
+    }
+}
