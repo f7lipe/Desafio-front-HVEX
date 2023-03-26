@@ -7,6 +7,7 @@ interface Props {
 
 export const NavLink = styled(Link)`
     margin: 20px 10px 0 0;
+    font-size: 16px;
     background-color: ${props => props.theme.colors.quaternary};
     color: ${(linkProps: Props) => 
              (props => linkProps.active ? 
