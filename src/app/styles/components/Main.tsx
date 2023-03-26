@@ -5,6 +5,5 @@ export const Main = styled.main`
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 100vh;
-    background-color: ${props => props.theme.colors.terciary};
+    width: 100%;
 `
