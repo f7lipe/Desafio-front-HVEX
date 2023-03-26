@@ -5,6 +5,7 @@ export const Nav = styled.nav`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    z-index: 1;
     padding: 10px 10px;
     width: 100%;
     min-height: 70px;
