@@ -13,6 +13,7 @@ export const Section = styled.section`
     flex-direction: column;
     align-items: ${(props: Props) => props.align || 'flex-start'};
     justify-content: ${(props: Props) => props.justify || 'center'};
+    background-color: ${(props: Props) => props.backgroundColor || 'transparent'};
     padding: 10px 10px;
     width: 100%;
     height: 100%;
