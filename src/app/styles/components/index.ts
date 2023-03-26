@@ -1,6 +1,7 @@
 export * from './Button'
 export * from './Foot'
 export * from './Group'
+export * from './HorizontalLine'
 export * from './Logo'
 export * from './Main'
 export * from './Menu'
