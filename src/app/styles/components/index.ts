@@ -1,4 +1,5 @@
 export * from './Button'
+export * from './Card'
 export * from './Foot'
 export * from './Group'
 export * from './HorizontalLine'
