@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: 24px;
     }
 
-    h4{
+    h4, text, li{
         font-size: 20px;
     }
 
@@ -41,15 +41,19 @@ const GlobalStyle = createGlobalStyle`
         font-size: 16px;
     }
 
+    text {
+        color: #373737;
+    }
+
     address{
         font-style: normal;
     }
 
-    h1, h2, h3 {
+    h1, h2, h3, li {
         font-weight: 700;
     }
 
-    h4, h5 {
+    h4, h5, text {
         font-weight: 400;
     }
 
