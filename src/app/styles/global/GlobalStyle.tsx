@@ -37,8 +37,12 @@ const GlobalStyle = createGlobalStyle`
         font-size: 20px;
     }
 
-    h5, p{
+    h5, p, address{
         font-size: 16px;
+    }
+
+    address{
+        font-style: normal;
     }
 
     h1, h2, h3 {
