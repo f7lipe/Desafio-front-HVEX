@@ -1,6 +1,7 @@
 export * from './Button'
 export * from './Card'
 export * from './Circle'
+export * from './DynamicDashboard'
 export * from './Foot'
 export * from './Group'
 export * from './HorizontalLine'
