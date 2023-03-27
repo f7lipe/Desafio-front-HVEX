@@ -41,6 +41,11 @@ const GlobalStyle = createGlobalStyle`
         font-size: 16px;
     }
 
+    small{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
     text {
         color: #373737;
     }
