@@ -1,0 +1,41 @@
+{
+    "title": "OMNI TRAFO",
+    "secondary_title": "Monitoramento inteligente de transformadores de distribuição",
+    "description": "O Omni trafo é uma solução consolidada para monitoramento de ativos. Através deste equipamento, informações importantes da rede são enviadas em tempo real , permitindo, assim, a administração remota de dados como: ",
+    "image": "/section3.png",
+    "dash_items": [
+        {
+            "icon": "/section3_1.svg",
+            "title": "Monitoramento de  tensão, corrente e carga"
+        },
+        {
+            "icon": "/section3_2.svg",
+            "title": "Análise de perda de vida útil do transformador"
+        },
+        {
+            "icon": "/section3_3.svg",
+            "title": "Medição do balanço energético de Perdas"
+        },
+        {
+            "icon": "/section3_4.svg",
+            "title": "Detecção de faltas na rede elétrica"
+        },
+        {
+            "icon": "/section3_5.svg",
+            "title": "Análise de Fator de potência"
+        },
+        {
+            "icon": "/section3_6.svg",
+            "title": "Harmônicas de corrente e tensão"
+        },
+        {
+            "icon": "/section3_7.svg",
+            "title": "Medição de temperatura interna"
+        },
+        {
+            "icon": "/section3_8.svg",
+            "title": "Supervisão de  baixa tensão"
+        }
+
+    ]
+}
