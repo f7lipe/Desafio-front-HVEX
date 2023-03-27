@@ -1,0 +1,26 @@
+{
+    "description": "Desenvolvido para melhorar a performance dos ativos de distribuição",
+    "image": "/section4.png",
+    "checklist": [
+        {
+            "isChecked": true,
+            "description": "Balanço energético"
+        },
+        {
+            "isChecked": true,
+            "description": "Auto-diagnóstico dos transformadores"
+        },
+        {
+            "isChecked": true,
+            "description": "À prova de fraude"
+        },
+        {
+            "isChecked": true,
+            "description": "Maior vida útil do ativo"
+        },
+        {
+            "isChecked": true,
+            "description": "Acompanhamento em tempo real das condições do equipamento"
+        }
+    ]
+}
