@@ -3,6 +3,7 @@ import Features from "./Features"
 import SmartMonitoring from "./SmartMonitoring"
 import Advantages from "./Advantages"
 import KnowMore from "./KnowMore"
+import Faq from "./Faq"
 
 function Sections(){
     return (
@@ -12,6 +13,7 @@ function Sections(){
             <SmartMonitoring />
             <Advantages />
             <KnowMore />
+            <Faq />
         </>
     )
 }
