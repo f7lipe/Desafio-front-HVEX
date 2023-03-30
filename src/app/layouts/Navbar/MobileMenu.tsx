@@ -54,29 +54,29 @@ function MobileMenu() {
                         <NavLink
                             href="/"
                             active={"true"}>
-                                <h5>Omni trafo</h5>
+                            <h5>Omni trafo</h5>
                         </NavLink>
                     </MenuItem>
                     <MenuItem>
-                        <NavLink 
+                        <NavLink
                             href="/to-be-defined">
-                                <h5>Sinalizador de faltas</h5>
-                                </NavLink>
+                            <h5>Sinalizador de faltas</h5>
+                        </NavLink>
                     </MenuItem>
                     <MenuItem>
-                        <NavLink 
-                        href="/to-be-defined">
+                        <NavLink
+                            href="/to-be-defined">
                             <h5>Acoplador DP</h5>
-                            </NavLink>
+                        </NavLink>
                     </MenuItem>
                     <MenuItem>
                         <Button
                             height="50px"
-                            border={`1px solid`}
+                            border={`1px solid ${theme.colors.primary}`}
                             radius="5px"
-                            color={theme.colors.primary}> 
-                            <h5>Comprar agora </h5>
-                            </Button>
+                            color={theme.colors.primary}>
+                            Comprar agora
+                        </Button>
                     </MenuItem>
                 </>
             }

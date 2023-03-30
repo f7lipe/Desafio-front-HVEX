@@ -7,6 +7,7 @@ function Features() {
 
     return (
         <Section
+            minHeight="723px"
             backgroundColor={theme.colors.quaternary}
             align="center"
             justify="center">

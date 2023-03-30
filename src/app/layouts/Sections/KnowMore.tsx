@@ -9,10 +9,10 @@ import knowMoreData from "@/app/data/know_more.json"
 
 function KnowMore() {
     const { title } = knowMoreData
-    const checkedImage = <img src="/checked.svg" width={15} height={15} alt="checked" />
 
     return (
         <Section
+            minHeight="366px"
             backgroundColor={theme.colors.tertiary}
             align="center"
             justify="center">

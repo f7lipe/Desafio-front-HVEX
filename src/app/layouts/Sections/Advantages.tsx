@@ -13,7 +13,9 @@ function Advantages() {
     const checkedImage = <img src="/checked.svg" width={15} height={15} alt="checked" />
 
     return (
-        <Section>
+        <Section
+            minHeight="723px"
+            backgroundColor="#F4F4F4">
 
             <Group
                 style={{ minHeight: "400px" }}
@@ -40,12 +42,12 @@ function Advantages() {
             <Group
                 direction="column"
                 align="center"
-                justify="center">
+                justify="flex-start">
                 <img
                     alt="Intro"
                     src={image}
                     width="100%"
-                    style={{ objectFit: "cover", maxWidth: "544px" }} />
+                    style={{ objectFit: "cover", maxWidth: "644px" }} />
 
             </Group>
 

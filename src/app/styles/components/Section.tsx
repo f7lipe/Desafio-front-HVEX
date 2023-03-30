@@ -5,6 +5,7 @@ interface Props{
     color?: string;
     margin?: string;
     splitBackground?: boolean;
+    minHeight?: string;
     align?: 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch';
     justify?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
 }
@@ -12,7 +13,7 @@ interface Props{
 export const Section = styled.section`
     display: flex;
     flex-direction: column;
-    align-items: ${(props: Props) => props.align || 'flex-start'};
+    align-items: ${(props: Props) => props.align || 'center'};
     justify-content: ${(props: Props) => props.justify || 'center'};
     background-color: ${(props: Props) => props.backgroundColor || 'transparent'};
     padding: 10px 10px;
@@ -22,6 +23,7 @@ export const Section = styled.section`
     @media screen and (min-width: 768px) {
         flex-direction: row;
         padding: 10px 40px;
+        min-height: ${(props: Props) => props.minHeight || 'auto'};
         background-image: ${(props: Props) => props.splitBackground ? 'linear-gradient(90deg, #000 80%, #fff 20%)' : 'none'};
     }
 `

@@ -13,7 +13,8 @@ import data from "@/app/data/smart_monitoring.json"
 function SmartMonitoring() {
     const { title, secondary_title, description, image, dash_items } = data
     return (
-        <Section>
+        <Section
+            minHeight="879px">
 
             <Group
                 direction="column"

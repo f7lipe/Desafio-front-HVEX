@@ -11,7 +11,7 @@ const List = styled.ul`
 const ListItem = styled.li`
   display: flex;
   align-items: center;
-  margin: 10px 0;
+  margin: 20px 0;
 `
 
 const CheckMark = styled.span`

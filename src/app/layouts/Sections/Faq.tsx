@@ -10,11 +10,13 @@ function Faq() {
     const { questions } = faqData
 
     return (
-        <Section>
+        <Section
+            backgroundColor="#F4F4F4"
+            minHeight="600px">
             <Group
                 direction="column"
                 align="center">
-                <h2 style={{color: theme.colors.quaternary}}>Frequently Asked Questions</h2>
+                <h2 style={{color: theme.colors.quaternary}}>Perguntas Frequentes</h2>
                 {
                     questions.map((question, index) => (
                         <Accordion
