@@ -11,6 +11,8 @@ interface Props {
     padding?: string
     titleColor?: string
     backgroundColor?: string
+    zIndex?: number | 'auto'
+    position?: 'static' | 'relative' | 'absolute' | 'fixed' | 'sticky'
 }
 
 const Group = styled.div`
@@ -23,10 +25,13 @@ const Group = styled.div`
     padding: ${(props: Props) => props.padding || '0'};
     align-items: ${(props: Props) => props.align || 'stretch'};
     justify-content: ${(props: Props) => props.justify || 'flex-start'};
+    z-index: ${(props: Props) => props.zIndex || 'auto'};
     background-color: ${(props: Props) => props.backgroundColor || 'transparent'};
+    position: ${(props: Props) => props.position || 'static'};
 
     @media (min-width: 768px) {
         flex-direction: ${(props: Props) => props.direction || 'row'};
+
     }
 `
 
