@@ -3,6 +3,7 @@ import {
     Group,
     List,
     ListItem,
+    HorizontalLine,
     CheckMark
 } from "@/app/styles/components"
 import { theme } from "@/app/styles/global/GlobalStyle"
@@ -10,7 +11,7 @@ import advantagesData from "@/app/data/advantages.json"
 
 function Advantages() {
     const { description, checklist, image } = advantagesData
-    const checkedImage = <img src="/checked.svg" width={15} height={15} alt="checked" />
+    const checkedImage = <img src="/section4_1.svg" width={15} height={15} alt="checked" />
 
     return (
         <Section
@@ -24,6 +25,11 @@ function Advantages() {
                 direction="column">
 
                 <h3 style={{color: theme.colors.quaternary}}>{description}</h3>
+
+                <HorizontalLine 
+                    color={theme.colors.primary}
+                    thickness="5px"
+                    width="150px" />
 
                 <List>
                     {checklist.map((item, index) => (
@@ -44,7 +50,7 @@ function Advantages() {
                 align="center"
                 justify="flex-start">
                 <img
-                    alt="Intro"
+                    alt="checked"
                     src={image}
                     width="100%"
                     style={{ objectFit: "cover", maxWidth: "644px" }} />
