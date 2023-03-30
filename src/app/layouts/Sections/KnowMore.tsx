@@ -21,13 +21,12 @@ function KnowMore() {
                     align="center"
                     justify="space-around"
                     direction="column"
-                    style={{minHeight:"300px"}}
-                    >
-                    <h2 style={{color:"white", width: "50%", textAlign:"center"}}>{title}</h2>
+                    style={{maxWidth:"600px"}}>
+                    <h2 style={{color:"white", textAlign:"center"}}>{title}</h2>
                     <HorizontalLine 
                         color={theme.colors.primary}
                         thickness="5px"
-                        width="15%"/>
+                        width="20%"/>
 
                     <Button
                         style={{marginTop:"20px"}}
