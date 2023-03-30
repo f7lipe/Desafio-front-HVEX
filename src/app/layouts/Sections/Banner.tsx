@@ -1,9 +1,9 @@
-import { Section, Group, Button } from "@/app/styles/components"
+import { Section, Group, Button, Circle } from "@/app/styles/components"
 import bannerData from "@/app/data/banner.json"
 import { theme } from "@/app/styles/global/GlobalStyle"
 
 function Banner() {
-    const { title, description, image } = bannerData
+    const { title, description, image, icon } = bannerData
     return (
         <Section
             minHeight="817px"
@@ -30,14 +30,20 @@ function Banner() {
                     Quero saber mais
                 </Button>
             </Group>
-            <Group>
-                <img src={image} alt="banner" />
-            </Group>
             <Group
-                width="10%"
-                height="100px"
-                zIndex={2}>
-                <img src="/images/section-background.png" alt="background" />
+                align="flex-end">
+                <img src={image} alt="banner" />
+                <Group
+                    zIndex={3}
+                    width="100px"
+                    height="100px">
+                    <a href="/">
+                    <Circle
+                        backgroundColor={theme.colors.primary}>
+                        <img src={icon} width={100} height={100} alt="whatsapp" />
+                    </Circle>
+                    </a>
+                </Group>
             </Group>
         </Section>
     )
