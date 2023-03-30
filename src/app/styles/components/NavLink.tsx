@@ -9,13 +9,18 @@ export const NavLink = styled(Link)`
     margin: 20px 10px 0 0;
     font-size: 16px;
     background-color: ${props => props.theme.colors.quaternary};
-    color: ${(linkProps: Props) => 
-             (props => linkProps.active ? 
-              props.theme.colors.primary : 'white')};
     text-decoration: none;
 
+    h5{
+        color: ${(linkProps: Props) =>
+        (props => linkProps.active ?
+        props.theme.colors.primary : 'white')};
+    }
+
     &:hover {
-        color: ${props => props.theme.colors.primary};
+        h5{
+            color: ${props => props.theme.colors.primary};
+        }
     }
 
     @media screen and (min-width: 768px) {

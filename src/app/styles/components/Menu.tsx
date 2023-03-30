@@ -16,7 +16,7 @@ const MobileMenu = styled.ul`
   transition: height 0.5s ease-in-out;
   
     ${(props: Props) => props.isOpen && `
-    height: 100vh;
+    height: 90vh;
   `}
 
   @media screen and (min-width: 768px) {
@@ -26,6 +26,10 @@ const MobileMenu = styled.ul`
 
 const MenuItem = styled.li`
   margin: 10px 0px;
+
+  h5{
+      margin: 0;
+  }
 
   @media screen and (min-width: 768px) {
     margin: 0px 20px;

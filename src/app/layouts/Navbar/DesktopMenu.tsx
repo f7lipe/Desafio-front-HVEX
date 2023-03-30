@@ -20,7 +20,7 @@ function DesktopMenu() {
                 height="60" />
             <Group
                 direction="row"
-                width="60%"
+                width="70%"
                 justify="space-between"
                 align="center">
                 <MenuItem>
@@ -44,11 +44,11 @@ function DesktopMenu() {
                     <Button
                         height="50px"
                         width="170px"
-                        border={`1px solid`}
+                        border={`1px solid ${theme.colors.primary}`}
                         radius="5px"
                         color={theme.colors.primary}
                     >
-                        <h5>Comprar agora</h5>
+                        Comprar agora
                     </Button>
                 </MenuItem>
             </Group>

@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
     body {
         background-color: white;
         height: 100vh;
+        overflow-x: hidden;
     }
 
     h1{
