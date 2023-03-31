@@ -54,7 +54,13 @@ git clone https://github.com/f7lipe/Desafio-front-HVEX.git
 cd Desafio-front-HVEX
 ```
 
-4. Execute o seguinte comando para criar e iniciar o contêiner:
+4. Construa a imagem do projeto 
+
+```bash
+COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build
+```
+
+5. Execute o seguinte comando para criar e iniciar o contêiner:
 ```bash
 docker-compose up
 ```
