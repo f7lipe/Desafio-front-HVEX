@@ -1,4 +1,4 @@
-<h1>Desafio Front-end HVEX<h/1>
+<h1>Desafio Front-end HVEX</h1>
 
 Este projeto é uma landing page responsiva, desenvolvida como um desafio técnico para a empresa HVEX. Ele pode ser instalado e executado localmente ou em um contêiner Docker.
 
